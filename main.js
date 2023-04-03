@@ -7,7 +7,7 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 
 let contador = 0;
 
-while(contador < 5) {
+while(contador < 4) {
     const tecla = listaDeTeclas[contador]
     const instrumento = tecla.classList[1];
     const idAudio = `#som_${instrumento}`
