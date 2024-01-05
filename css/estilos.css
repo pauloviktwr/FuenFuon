@@ -27,12 +27,7 @@ h1 {
   box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
-  gap: 10px;
-<<<<<<< HEAD
-  grid-template-columns: repeat(2, 1fr);
-=======
-  grid-template-columns: repeat(3, 1fr);
->>>>>>> 72ddcc9d1a2e8aa7190106c996f4f2350c6d2390
+  gap: 10px;  grid-template-columns: repeat(2, 1fr);
   padding: 10px;
 }
 
