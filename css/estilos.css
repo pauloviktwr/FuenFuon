@@ -8,13 +8,15 @@
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
-  display: flex;
+  display: flex;  
   justify-content: center;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
-}
+  background-image: url("images/jadepicon.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;}
 
 h1 {
   color: var(--branca);
@@ -29,10 +31,14 @@ h1 {
   display: grid;
   gap: 10px;  grid-template-columns: repeat(2, 1fr);
   padding: 10px;
+  opacity: 0.7;
+  
+
 }
 
 .tecla {
   background-color: var(--branca);
+  
   border-radius: 30px;
   box-shadow: 3px 3px 0 var(--cinza);
   color: var(--vermelha);
@@ -43,6 +49,13 @@ h1 {
   line-height: 120px;
   text-align: center;
   width: 120px;
+}
+
+.tecla:hover {
+  background-color: var(--luz);
+  border: 4px solid var(--vermelha);
+  color: var(--vermelha-escura);
+  box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
 }
 
 .tecla.ativa,
